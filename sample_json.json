@@ -1,0 +1,51 @@
+{
+	
+		"Login_Page": 
+			{
+				"SiteUrl": "http://10.131.14.245:30016/index.htm",
+				"Browser": "Chrome",
+				"path": "sample_json",
+				"height": 500,
+				"FirefoxProfile":"D:\\userdata\\khchoudh\\Desktop\\1m5ho3ed.Selenium-P",
+				"user_login_xpath":"//input[@name='username']",
+				"user_password_xpath":"//input[@name='password']",
+				"Login_button":"//button",
+				"side_menu":".//*[@id='side-menu']/li[5]/a"
+				 
+			},
+		"designboard_page": 
+			{ 
+				"ms3_xpath": "//span[text()='ms3-designboard rev.2016-10-17 ']/ancestor::a/i",
+				"operations": "//span[text()='operations ']/ancestor::a/i",
+				"saveScenario": "//span[text()='saveScenario ']/ancestor::a/i",
+				"vOffset": 250,
+				"alignment": "center",
+				"Element_presence":"//b[text()=' Loading completed successfully']",
+				"Test_input":"//b[text()='//div[@id='pageContent']/div/div/div[6]/div/div/div[2]/div[1]/div/div[2]/div[1]/div/div[1]/input']",
+				"Sample_Input":"//b[text()='//div[@id='pageContent']/div/div/div[6]/div/div/div[2]/div[1]/div/div[2]/div[2]/div/div[1]/input",
+				"Test_input_Send_Keys":"Test",
+				"Sample_Input_Send_Keys":"Save"
+				
+			},
+        "pankaj_page": 
+            { 
+                "Hello": "//span[text()='ms3-designboard rev.2016-10-17 ']/ancestor::a/i"
+	        },
+        "pankaj_page1": 
+            { 
+                "Hello1": "//span[text()='ms3-designboard rev.2016-10-17 ']/ancestor::a/i"
+            },
+        "pankaj_page2": 
+            { 
+                "Hello2": "//span[text()='ms3-designboard rev.2016-10-17 ']/ancestor::a/i"
+            },
+        "pankaj_page3": 
+            { 
+                "Hello3": "//span[text()='ms3-designboard rev.2016-10-17 ']/ancestor::a/i"
+            },
+        "pankaj_page4": 
+            { 
+                "Hello4": "//span[text()='ms3-designboard rev.2016-10-17 ']/desc::a/i"
+            }
+
+}
