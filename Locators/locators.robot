@@ -17,7 +17,7 @@ EXTRACT_LIST_VARIABLES
     #Getting the lengh of list
     ${NUM}=  Get Length  ${list_result}
     :For  ${list_item}  IN RANGE    0    ${NUM}
-    \   ${source_result} =    source_attribute.getting_attributes_of_phones    ${list_item}
+    \   ${source_result} =    source_attribute.getting_attributes_of_json    ${list_item}
     \    set suite variable    ${source_result}
     \    Getting Inside List
 

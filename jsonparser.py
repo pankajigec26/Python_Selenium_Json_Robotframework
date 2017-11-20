@@ -13,7 +13,7 @@ class jsonparse(object):
 			self.keys.append(k)
 		return self.keys
 
-	def getting_attributes_of_phones(self,list_index):
+	def getting_attributes_of_json(self,list_index):
 		self.getting_keys_from_dictionary()
 		self.device_attribute=self.data[self.keys[list_index]]
 		return self.device_attribute
