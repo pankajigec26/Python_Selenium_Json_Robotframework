@@ -25,7 +25,6 @@ this Bokeh file will automatically process the "output.xml" generated after runn
 if you wish to use anyother robotfile which is not in current directory , then you need to edit this file and replace 'output.xml' from 'path/output.xml'
 
 
-Run ->
-
+Run ->:
 1)pybot main.robot
 2)Python Bokeh.py
